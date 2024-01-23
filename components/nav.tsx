@@ -91,8 +91,8 @@ function Nav() {
                       <Image
                         alt=""
                         src="/logo.png"
-                        width="120px"
-                        height="40px"
+                        width="120"
+                        height="40"
                       />
                     </div>
                   </Link>

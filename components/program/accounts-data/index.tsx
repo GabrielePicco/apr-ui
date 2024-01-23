@@ -1,5 +1,5 @@
 import { memo, useCallback, useEffect, useState } from "react";
-import { AnchorProvider, Program } from "@project-serum/anchor";
+import { AnchorProvider, Program } from "@coral-xyz/anchor";
 import { Connection, PublicKey } from "@solana/web3.js";
 import AccountSelector from "./account-selector";
 import AccountsDataFilter from "./filter";

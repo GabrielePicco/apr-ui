@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { Connection, PublicKey } from "@solana/web3.js";
-import { Address, AnchorProvider, Program } from "@project-serum/anchor";
+import { Address, AnchorProvider, Program } from "@coral-xyz/anchor";
 
 export default async function handler(
   req: NextApiRequest,

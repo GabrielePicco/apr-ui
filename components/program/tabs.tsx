@@ -3,7 +3,7 @@ import useSWR from "swr";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import fetcher from "../../utils/fetcher";
-import { Address, Idl } from "@project-serum/anchor";
+import { Address, Idl } from "@coral-xyz/anchor";
 
 const Readme = dynamic(() => import("./readme"));
 const Builds = dynamic(() => import("./builds"));

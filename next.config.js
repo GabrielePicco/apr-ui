@@ -2,10 +2,6 @@ const { withSentryConfig } = require("@sentry/nextjs");
 const { withPlausibleProxy } = require("next-plausible");
 
 const moduleExports = withPlausibleProxy()({
-  experimental: {
-    legacyBrowsers: false,
-    images: { allowFutureImage: true },
-  },
   reactStrictMode: true,
   swcMinify: true,
   typescript: {

@@ -1,5 +1,5 @@
 import type { GetStaticProps } from "next";
-import Image from "next/future/image";
+import Image from "next/image";
 import fetch from "../utils/fetcher";
 import { useState } from "react";
 import dynamic from "next/dynamic";

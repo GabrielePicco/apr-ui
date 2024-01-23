@@ -1,5 +1,5 @@
 import { Connection, PublicKey } from "@solana/web3.js";
-import * as anchor from "@project-serum/anchor";
+import * as anchor from "@coral-xyz/anchor";
 
 /**
  * Returns the current network status.
